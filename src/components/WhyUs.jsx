@@ -1,11 +1,11 @@
 import React from "react";
-import Img1 from "../../assets/ImgWhyUs1.webp";
-import Img2 from "../../assets/ImgWhyUs2.webp";
-import Img3 from "../../assets/ImgWhyUs3.webp";
+import Img1 from "../assets/ImgWhyUs1.webp";
+import Img2 from "../assets/ImgWhyUs2.webp";
+import Img3 from "../assets/ImgWhyUs3.webp";
 
 const WhyUs = () => {
   return (
-    <section className="px-4 py-20 lg:py-14">
+    <section className="px-4 py-20 lg:py-14" id="contact">
       <h2 className="mb-6 text-center text-lg font-bold lg:mb-16 lg:text-[40px]">Mengapa Rental.Ly?</h2>
       <div className="flex flex-col gap-8 md:flex-row md:justify-center md:gap-4 lg:gap-32">
         <div className="flex flex-col items-center gap-2 rounded-lg bg-bgSecondary p-4 shadow-xl lg:max-w-[353px] lg:gap-4 lg:px-6 lg:py-9">
